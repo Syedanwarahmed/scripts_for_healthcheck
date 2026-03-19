@@ -11,10 +11,8 @@ This repository contains health check scripts used in real-world Oracle Database
 ## 📌 Features
 - Database Status Check
 - Tablespace Usage Monitoring
-- Archive Log Monitoring
 - Backup Status Verification
-- Long Running Concurrent Requests
-- Active Sessions Monitoring
+
 
 ## 🛠️ Technologies
 - Oracle Database (11g/12c/19c)
