@@ -16,13 +16,11 @@ This repository contains health check scripts used in real-world Oracle Database
 
 ## 🛠️ Technologies
 - Oracle Database (11g/12c/19c)
-- Oracle E-Business Suite (R12)
-- Shell Scripting (Linux)
+
 
 ## 📂 Scripts Included
 - hc.sql → SQL-based database health check script
-- archive_cleanup.sh → Archive log cleanup (to be added)
-- session_monitor.sql → Active session monitoring (to be added)
+
 
 ## 🚀 Usage
 
