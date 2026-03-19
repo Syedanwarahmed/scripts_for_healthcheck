@@ -26,18 +26,15 @@ This repository contains health check scripts used in real-world Oracle Database
 
 ## 🚀 Usage
 
-Run the script using SQL*Plus:
-
 ```sql
 sqlplus / as sysdba
 @hc.sql
+```
 
+## 👤 Author
 
-
-##👤 Author
-
-Syed Anwar Ahmed
-Oracle Apps DBA
+Syed Anwar Ahmed  
+Oracle Apps DBA  
 Oracle ACE Apprentice
 
 
