@@ -26,3 +26,10 @@ This repository contains health check scripts used in real-world Oracle Database
 ```bash
 chmod +x hc.sql
 ./hc.sql
+
+
+## 👤 Author
+
+Syed Anwar Ahmed  
+Oracle Apps DBA  
+Oracle ACE Apprentice  
