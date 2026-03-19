@@ -1,3 +1,13 @@
+
+
+-- ============================================
+-- Oracle Database Health Check Script
+-- Author: Syed Anwar Ahmed
+-- Description: Basic health check for DB status,
+--              tablespaces, sessions, and backups
+-- ============================================
+
+
 set colsep '|';
  set lines 1200
  col HOST_NAME for a12
