@@ -1,6 +1,10 @@
 # scripts_for_healthcheck
+
 Collection of Oracle Database and E-Business Suite health check scripts for monitoring database status, tablespaces, backups, archive logs, and performance metrics.
-# Oracle DB Health Check Scripts
+
+These scripts are derived from real-time production support scenarios in Oracle EBS environments.
+
+## Oracle DB Health Check Scripts
 
 This repository contains health check scripts used in real-world Oracle Database and E-Business Suite (EBS) environments.
 
@@ -18,26 +22,14 @@ This repository contains health check scripts used in real-world Oracle Database
 - Shell Scripting (Linux)
 
 ## 📂 Scripts Included
-- hc.sql→ Main health check script
-- archive_cleanup.sh → Archive log cleanup
-- session_monitor.sql → Active session monitoring
+- hc.sql → SQL-based database health check script
+- archive_cleanup.sh → Archive log cleanup (to be added)
+- session_monitor.sql → Active session monitoring (to be added)
 
 ## 🚀 Usage
-```bash
-chmod +x hc.sql
-./hc.sql
 
-Added Oracle DB health check SQL script (hc.sql)
-## 📂 Scripts Included
+Run the script using SQL*Plus:
 
-- hc.sql → SQL-based database health check script
-- hc.sh → Shell script for automation (if added)
-
-
-
-
-## 👤 Author
-
-Syed Anwar Ahmed  
-Oracle Apps DBA  
-Oracle ACE Apprentice  
+```sql
+sqlplus / as sysdba
+@hc.sql
