@@ -31,3 +31,13 @@ Run the script using SQL*Plus:
 ```sql
 sqlplus / as sysdba
 @hc.sql
+
+
+
+##👤 Author
+
+Syed Anwar Ahmed
+Oracle Apps DBA
+Oracle ACE Apprentice
+
+
