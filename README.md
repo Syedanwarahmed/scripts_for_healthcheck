@@ -27,6 +27,14 @@ This repository contains health check scripts used in real-world Oracle Database
 chmod +x hc.sql
 ./hc.sql
 
+Added Oracle DB health check SQL script (hc.sql)
+## 📂 Scripts Included
+
+- hc.sql → SQL-based database health check script
+- hc.sh → Shell script for automation (if added)
+
+
+
 
 ## 👤 Author
 
